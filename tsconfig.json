@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "baseUrl": "src", // This must be specified if "paths" is.
+    "paths": {
+      "@controllers/*": ["controllers/*"] // This mapping is relative to "baseUrl"
+    }
+  },
+  "include": ["src"]
+}
